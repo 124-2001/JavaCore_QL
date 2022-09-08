@@ -16,7 +16,7 @@ public class Main {
             System.out.println("3)Hien thi danh sach can bo");
             System.out.println("******___________________******");
             int n = sc.nextInt();
-            while (n>3 || n<1){
+            while (n>4 || n<0){
                 System.out.print("Nhap lai :");
                 n = sc.nextInt();
             }
